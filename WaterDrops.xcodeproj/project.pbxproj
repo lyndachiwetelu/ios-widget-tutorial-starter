@@ -13,6 +13,8 @@
 		7899683F2AE5B799001C3028 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7899683E2AE5B799001C3028 /* Preview Assets.xcassets */; };
 		789968412AE5B799001C3028 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789968402AE5B799001C3028 /* Persistence.swift */; };
 		789968442AE5B799001C3028 /* WaterDrops.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 789968422AE5B799001C3028 /* WaterDrops.xcdatamodeld */; };
+		7899684B2AE5BF58001C3028 /* BottleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899684A2AE5BF58001C3028 /* BottleView.swift */; };
+		7899684D2AE5BFC5001C3028 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899684C2AE5BFC5001C3028 /* LogManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		7899683E2AE5B799001C3028 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		789968402AE5B799001C3028 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		789968432AE5B799001C3028 /* WaterDrops.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WaterDrops.xcdatamodel; sourceTree = "<group>"; };
+		7899684A2AE5BF58001C3028 /* BottleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleView.swift; sourceTree = "<group>"; };
+		7899684C2AE5BFC5001C3028 /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 		789968362AE5B798001C3028 /* WaterDrops */ = {
 			isa = PBXGroup;
 			children = (
+				7899684C2AE5BFC5001C3028 /* LogManager.swift */,
+				7899684A2AE5BF58001C3028 /* BottleView.swift */,
 				789968372AE5B798001C3028 /* WaterDropsApp.swift */,
 				789968392AE5B798001C3028 /* ContentView.swift */,
 				7899683B2AE5B799001C3028 /* Assets.xcassets */,
@@ -143,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7899684D2AE5BFC5001C3028 /* LogManager.swift in Sources */,
+				7899684B2AE5BF58001C3028 /* BottleView.swift in Sources */,
 				789968412AE5B799001C3028 /* Persistence.swift in Sources */,
 				7899683A2AE5B798001C3028 /* ContentView.swift in Sources */,
 				789968442AE5B799001C3028 /* WaterDrops.xcdatamodeld in Sources */,

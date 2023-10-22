@@ -1,7 +1,6 @@
 //
 
 import SwiftUI
-import WidgetKit
 
 struct ContentView: View {
     
@@ -32,7 +31,7 @@ struct ContentView: View {
                     Image(systemName: "checkmark").imageScale(.large).onTapGesture {
                         DispatchQueue.global().async {
                             LogManager.shared.saveLog(waterAmount: waterAmount)
-                            WidgetCenter.shared.reloadTimelines(ofKind: "WaterWidget")
+                           
                         }
                     }
                 }
